@@ -55,3 +55,7 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.responsive-img{
+  transform: translate3d(-60%, 200.998px, 0px);
+}

@@ -74,3 +74,9 @@ footer.page-footer {
 .responsive-img{
   transform: translate3d(-60%, 200.998px, 0px);
 }
+
+
+.parallax-container .parallax img {
+  min-width: 100%;
+  min-height: fit-content!important;
+}

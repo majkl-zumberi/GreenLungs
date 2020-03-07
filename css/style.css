@@ -17,6 +17,9 @@
 i.material-icons {
   color: teal;
 }
+.row.center.margine {
+  margin-top: 5.9em!important;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;

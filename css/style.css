@@ -6,9 +6,16 @@
  * Made By MaterializeCSS.com
  */
 
+.hoverable:hover{
+  background-color: #26a69a;
+  color: whitesmoke;
+}
 #logoImg{
   width: 67px;
   height: auto;
+}
+i.material-icons {
+  color: teal;
 }
 nav ul a,
 nav .brand-logo {

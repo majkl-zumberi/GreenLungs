@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+#logoImg{
+  width: 67px;
+  height: auto;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -19,6 +23,7 @@ h5{
 }
 .sidenav-trigger {
   color: #26a69a;
+  float: right!important;
 }
 
 .parallax-container {

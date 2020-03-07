@@ -78,5 +78,5 @@ footer.page-footer {
 
 .parallax-container .parallax img {
   min-width: 100%;
-  min-height: fit-content!important;
+  min-height: auto!important;
 }

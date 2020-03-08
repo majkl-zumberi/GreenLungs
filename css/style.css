@@ -85,3 +85,7 @@ footer.page-footer {
   min-width: 100%;
   min-height: auto!important;
 }
+.collection .collection-item.avatar:not(.circle-clipper) > .circle, .collection .collection-item.avatar :not(.circle-clipper) > .circle {
+  width: 52px!important;
+  height: 52px!important;
+}

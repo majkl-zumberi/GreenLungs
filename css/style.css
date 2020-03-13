@@ -5,23 +5,37 @@
  *
  * Made By MaterializeCSS.com
  */
- html {
+html {
   scroll-behavior: smooth;
 }
-.hoverable:hover{
+
+img {
+  opacity: 1;
+  transition: opacity 3.3s;
+}
+
+img[data-src] {
+  opacity: 0;
+}
+
+.hoverable:hover {
   background-color: #26a69a;
   color: whitesmoke;
 }
-#logoImg{
+
+#logoImg {
   width: 67px;
   height: auto;
 }
+
 i.material-icons {
   color: teal;
 }
+
 .row.center.margine {
-  margin-top: 5.9em!important;
+  margin-top: 5.9em !important;
 }
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -30,30 +44,34 @@ nav .brand-logo {
 p {
   line-height: 2rem;
 }
-h5{
-  font-weight: 500!important;
+
+h5 {
+  font-weight: 500 !important;
 }
+
 .sidenav-trigger {
   color: #26a69a;
-  float: right!important;
+  float: right !important;
 }
 
 .parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
-  
+  color: rgba(255, 255, 255, .9);
+
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.parallax-container .section {
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
+
   #index-banner .section {
     top: 10%;
   }
@@ -68,6 +86,7 @@ h5{
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
@@ -76,16 +95,18 @@ footer.page-footer {
   margin: 0;
 }
 
-.responsive-img{
+.responsive-img {
   transform: translate3d(-60%, 200.998px, 0px);
 }
 
 
 .parallax-container .parallax img {
   min-width: 100%;
-  min-height: auto!important;
+  min-height: auto !important;
 }
-.collection .collection-item.avatar:not(.circle-clipper) > .circle, .collection .collection-item.avatar :not(.circle-clipper) > .circle {
-  width: 52px!important;
-  height: 52px!important;
+
+.collection .collection-item.avatar:not(.circle-clipper)>.circle,
+.collection .collection-item.avatar :not(.circle-clipper)>.circle {
+  width: 52px !important;
+  height: 52px !important;
 }

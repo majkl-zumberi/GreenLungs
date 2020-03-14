@@ -8,7 +8,18 @@
 html {
   scroll-behavior: smooth;
 }
-
+a#btnDropdownTriggerPC{
+  display: inline-flex;
+}
+a#btnDropdownTriggerMobile{
+  display: inline-flex;
+}
+i#world {
+  color: white;
+}
+i.material-icons {
+  color: teal;
+}
 img {
   opacity: 1;
   transition: opacity 3.3s;

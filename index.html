@@ -26,22 +26,24 @@
           <li class="translate"><a id="en" href="#!">English</a></li>
 
         </ul>
-        <a id="btnDropdownTriggerPC" class="btn dropdown-trigger" href="#!" data-target="dropdown2">Lingua<i
-            class="material-icons right">arrow_drop_down</i></a>
+        <a id="btnDropdownTriggerPC" class="btn dropdown-trigger" href="#!" data-target="dropdown2">
+          IT<i id="world" class="material-icons">public</i>
+          <i class="material-icons right">arrow_drop_down</i></a>
 
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="#mission-target">Mission</a></li>
-        <li><a key="history" class="lang" href="#storia-target">Storia</a></li>
         <li><a key="aboutUs" class="lang" href="#team-target">Chi siamo</a></li>
+        <li><a key="history" class="lang" href="#storia-target">Storia</a></li>
+        <li><a href="#mission-target">Mission</a></li>
         <ul id="dropdownMobile" class="dropdown-content">
           <li class="translate"><a id="it" href="#!">Italiano</a></li>
           <li class="translate"><a id="en" href="#!">English</a></li>
 
         </ul>
-        <a id="btnDropdownTriggerMobile" class="btn dropdown-trigger" href="#!" data-target="dropdownMobile">Lingua<i
-            class="material-icons right">arrow_drop_down</i></a>
+        <a id="btnDropdownTriggerMobile" class="btn dropdown-trigger" href="#!" data-target="dropdownMobile">
+          IT<i id="world" class="material-icons">public</i>
+           <i class="material-icons right">arrow_drop_down</i></a>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -361,6 +363,9 @@
         var sas = document.querySelectorAll(".lang")
         sas.forEach(elemen => {
           elemen.innerHTML = arrLang["it"][elemen.getAttribute("key")];
+          document.querySelector("#btnDropdownTriggerPC").innerHTML='IT<i id="world" class="material-icons">public</i><i class="material-icons right">arrow_drop_down</i>';
+          document.querySelector("#btnDropdownTriggerMobile").innerHTML='IT<i id="world" class="material-icons">public</i><i class="material-icons right">arrow_drop_down</i>';
+        
           //console.log("testo: "+elemen.text+" key:"+elemen.getAttribute("key"));
         })
       })
@@ -372,6 +377,8 @@
         var sas = document.querySelectorAll(".lang")
         sas.forEach(elemen => {
           elemen.innerHTML = arrLang["en"][elemen.getAttribute("key")];
+          document.querySelector("#btnDropdownTriggerPC").innerHTML='EN<i id="world" class="material-icons">public</i><i class="material-icons right">arrow_drop_down</i>';
+          document.querySelector("#btnDropdownTriggerMobile").innerHTML='EN<i id="world" class="material-icons">public</i><i class="material-icons right">arrow_drop_down</i>';
           // console.log("testo: "+elemen.text+" key:"+elemen.getAttribute("key"));
         })
         // alert("we are currently working on translating the page, stay tuned!");
@@ -391,6 +398,9 @@
           let italian = document.querySelectorAll(".lang")
           italian.forEach(elemen => {
             elemen.innerHTML = arrLang["it"][elemen.getAttribute("key")];
+            document.querySelector("#btnDropdownTriggerPC").innerHTML='IT<i id="world" class="material-icons">public</i><i class="material-icons right">arrow_drop_down</i>';
+            document.querySelector("#btnDropdownTriggerMobile").innerHTML='IT<i id="world" class="material-icons">public</i><i class="material-icons right">arrow_drop_down</i>';
+        
             //console.log("testo: "+elemen.text+" key:"+elemen.getAttribute("key"));
           });
           break;
@@ -399,6 +409,9 @@
           let english = document.querySelectorAll(".lang")
           english.forEach(elemen => {
             elemen.innerHTML = arrLang["en"][elemen.getAttribute("key")];
+            document.querySelector("#btnDropdownTriggerPC").innerHTML='EN<i id="world" class="material-icons">public</i><i class="material-icons right">arrow_drop_down</i>';
+            document.querySelector("#btnDropdownTriggerMobile").innerHTML='EN<i id="world" class="material-icons">public</i><i class="material-icons right">arrow_drop_down</i>';
+        
             //console.log("testo: "+elemen.text+" key:"+elemen.getAttribute("key"));
           });
           break;
